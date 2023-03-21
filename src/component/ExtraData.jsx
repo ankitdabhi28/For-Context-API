@@ -1,20 +1,17 @@
 import React from 'react'
-import ForState from '../Context/forState'
 import { useContext } from 'react'
-
+import forContext from '../Context/forContext';
 
 function ExtraData() {
 
-    const [name] = useContext(ForState);
-    console.log('name: ', name);
-    console.log("val", name);
-    // const value = 'My Context Value';
-
+const a =  useContext(forContext)
+console.log("hello",a.name)
     return (
 
         <div>ExtraData Page
 
-            <div>Name : {name}</div>
+            <div>Name : {a.name} </div>
+
         </div>
 
     );

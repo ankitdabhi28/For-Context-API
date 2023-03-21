@@ -1,8 +1,9 @@
 import './App.css';
 import ExtraData from './component/ExtraData';
 import Home from './component/Home';
-// import ForContext from './Context/forContext';
-import ForState from './Context/forState';
+import ForState from './Context/ForState';
+
+
 
 
 function App() {
