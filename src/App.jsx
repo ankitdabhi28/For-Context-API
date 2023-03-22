@@ -1,6 +1,6 @@
 import './App.css';
 import ExtraData from './component/ExtraData';
-import Home from './component/Home';
+import TableApi from './component/TableApi';
 import ForState from './Context/ForState';
 
 
@@ -8,9 +8,9 @@ import ForState from './Context/ForState';
 
 function App() {
   return (
-    <div>
+    <div>   
       <ForState>
-        <Home />
+        <TableApi />
         <ExtraData />
       </ForState>
     </div>
